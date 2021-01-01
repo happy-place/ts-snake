@@ -190,7 +190,7 @@ npm start
 
 ```shell
 # less插件功能是支持对css文件自动加载，less对于 css，就如同html-webpack-plugin对于html
-npm i -D less less-loader
+npm i -D less less-loader style-loader
 ```
 
 #### 安装postcess插件
@@ -258,6 +258,23 @@ npm start
 # 打包后bundle.js文件出现带-ms前缀的flexbox属性
 # display: -ms-flexbox;
 ```
+
+## 步骤
+
+```shell
+# 创建蛇
+# 创建食物
+# 创建记分牌
+# 蛇移动
+# 蛇吃食物
+# 蛇长身体
+# 蛇移动身体联动
+# 蛇撞墙终止游戏
+# 蛇撞自己终止游戏
+# 游戏升级上限
+```
+
+
 
 
 

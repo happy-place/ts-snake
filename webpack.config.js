@@ -16,7 +16,9 @@ module.exports = {
         environment: {
             // 使用 babel 可以将ts中 箭头函数转换为ie也能执行的function(),
             // 但bundle.js开头的(()=>...) 是webpack生成的，babel无法修改，因此要控制不使用箭头函数，需要再此处配置
-            arrowFunction: false
+            arrowFunction: false,
+            // 不使用 const 在IE10不支持
+            const: false,
         }
     },
     // webpack打包需要依赖的模块
